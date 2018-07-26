@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 200px;
+    background-color: #4ABDAC;
+    color: white;
+    margin-left: 42%;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+label {
+    margin-bottom: 5%;
+}
+
+button {
+    width: 60px;
+    margin-top: 8%;
+    margin-left: 34%;
+    border-radius: 10px;
+    background-color:#F7B733;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+
+}

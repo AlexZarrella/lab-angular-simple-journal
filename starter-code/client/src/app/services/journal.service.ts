@@ -26,4 +26,10 @@ newEntry:any = {
 
   }
 
+  getOneEntry(theIdOfTheEntry) {
+
+    return this.http.get('http://localhost:3000/api/journal-entries/'+theIdOfTheEntry)
+    .map((res)=> res.json());
+
+  }
 }

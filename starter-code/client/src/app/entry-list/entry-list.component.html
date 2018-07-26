@@ -1,13 +1,13 @@
-<h3> Journal Entries </h3>
-<button (click)="getEntries()"> Get Journal Entries </button>
 
-<div *ngFor= "let entry of journal">
 
-  <br>
-  {{entry.title}}
-  <br>
+<button (click)="getEntries()"> See Journal Entries </button>
 
-  {{entry.date | date}}
+<div *ngFor= "let entry of journal" class= "entries">
+
+  <h3>{{entry.title}}</h3>
+
+  <p>{{entry.date | date}}</p>
+  <span>{{entry.content}}</span>
+  <a [routerLink]= "['entries', entry._id]">See details</a>
 </div>
-
 

@@ -1,0 +1,31 @@
+.entries {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    padding: 20px 20px;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+button {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    background-color: #FC4A1A;
+    margin-left: 45.5%;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+h3 {
+    margin-top: 0.5%;
+}
+
+p {
+    margin-top: 0%;
+}
+
+
+
