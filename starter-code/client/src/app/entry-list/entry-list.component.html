@@ -1,0 +1,13 @@
+<h3> Journal Entries </h3>
+<button (click)="getEntries()"> Get Journal Entries </button>
+
+<div *ngFor= "let entry of journal">
+
+  <br>
+  {{entry.title}}
+  <br>
+
+  {{entry.date | date}}
+</div>
+
+
